@@ -55,6 +55,6 @@ from.onsubmit = async function (e) {
   //判断账号
   const resp = await API.login(data);
   if (resp.code === 0) {
-    location.href = "abc.html";
+    location.href = ".index.html";
   }
 };
